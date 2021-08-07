@@ -1,1 +1,1 @@
-for(i=1;i<101;i++){if(i%15==0){print("FizzBuzz")}else if(i%3==0){print("Fizz")}else if(i%5==0){print("Buzz")}else print(i)}
+p=print;for(i=1;i<101;i++)i%15==0?p("FizzBuzz"):i%3==0?p("Fizz"):i%5==0?p("Buzz"):p(i)
